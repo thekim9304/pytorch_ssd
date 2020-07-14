@@ -82,7 +82,7 @@ def main():
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
     epochs = 10000
-    min_loss = 0.1
+    min_loss = 0.3
     for epoch in range(epochs):
         print(f'{epoch} epoch start! : {datetime.datetime.now().strftime("%Y.%m.%d %H:%M:%S")}')
 
